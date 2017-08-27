@@ -1,0 +1,15 @@
+CREATE TABLE usuario
+(
+	id int primary key auto_increment,
+	nome varchar(100),
+	login varchar(30),
+	senha varchar(32)
+)
+
+CREATE TABLE jogador
+(
+	id int primary key auto_increment,
+	nome varchar(100),
+	idade int,
+	gols int
+)
